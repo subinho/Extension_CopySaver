@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.history div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-container {
+    border-bottom: 1px solid #b9b7b7;
+}
+
+.item-text {
+    overflow-wrap: break-word;
+    max-width: 300px;
+}
+
+button {
+    margin-left: 5px;
+    min-width: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+img {
+    width: 16px;
+    height: 16px;
+}
